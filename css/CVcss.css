@@ -1,0 +1,180 @@
+:root{
+	--primary-color: #8B0000;
+	--secondary-color: #333333;
+}
+
+
+html{
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+
+
+*{
+	color: var(--secondary-color);
+}
+
+
+h1 {
+	color: var(--primary-color);
+	margin-bottom:  0.25em;
+}
+
+
+h2 {
+	color: var(--secondary-color);
+	font-size: 1em;
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+
+
+h3{
+	color: var(--primary-color);
+	font-weight: bold;
+}
+
+
+a{
+	color: #0000CD;
+}
+
+
+body{
+
+ border: 1px solid #8B0000; 
+ padding: 10px;
+}
+
+
+.heading{
+	display: flex;
+	justify-content: space-around;
+	font-size: 25px;
+}
+
+
+.cv{
+	
+	max-width: 900px;
+	margin:  0 auto;
+}
+
+
+.top{
+	display: flex;
+}
+
+
+.img{
+	margin-right: 2em;
+}
+
+
+
+/*--------------Contacts---------------*/
+
+.contacts{
+	margin-bottom: 2em;
+}
+
+
+.contact{
+	display: flex;
+}
+
+
+.contact_type{
+	width: 90px;
+}
+
+
+a[href^="mailto:"] {
+  font-size: 16px;
+  line-height: 32px;
+ /* color: #000000;*/
+}
+
+
+a[href^="tel:"] {
+  font-size: 16px;
+  line-height: 32px;
+  text-decoration: none;
+  /*color: #f7e702;*/
+}
+
+
+a[href^="tel:"]:before {
+  content: "\260e";
+  margin-right: 0.5em;
+}
+
+
+
+/*--------------Description-------------*/
+.description{
+	font-style: italic;
+	margin-bottom: 2em;
+	margin-top: 1em;
+}
+
+
+
+
+/*------------Experience-----------*/
+.experience{
+	display:  flex;
+	margin-bottom: 2em;
+}
+
+
+.experience_date{
+	min-width: 185px;
+	margin-bottom: 1em;
+	padding-right: 20px;
+}
+
+
+.experience_description{
+
+}
+
+
+.exp_name{
+	font-weight: bold;
+
+}
+
+
+
+/*--------------Education--------------*/
+
+
+.education{
+	display:  flex;
+	margin-bottom: 2em;	
+}
+
+
+.education_date{
+	min-width: 185px;
+	margin-bottom: 1em;
+	padding-right: 20px;
+}
+
+
+.university{
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
